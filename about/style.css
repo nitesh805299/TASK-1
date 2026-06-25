@@ -18,6 +18,7 @@
   border-radius: 34px;
   overflow: hidden;
   box-shadow: var(--shadow);
+  animation: floatIn 0.85s ease both;
 }
 
 .about-image img {
@@ -26,12 +27,21 @@
   min-height: 560px;
   display: block;
   object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.about-image:hover img {
+  transform: scale(1.04);
 }
 
 .about-content h1 {
   font-size: clamp(2.1rem, 5vw, 4.4rem);
   line-height: 1.05;
   color: var(--dark);
+}
+
+.about-content {
+  animation: slideUp 0.75s ease both;
 }
 
 .about-content p {
@@ -58,17 +68,16 @@
   border-radius: 18px;
   font-weight: 700;
   box-shadow: 0 12px 30px rgba(42, 24, 14, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-list span:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 42px rgba(42, 24, 14, 0.14);
 }
 
 .about-list i {
   color: var(--orange);
-}
-
-.footer {
-  padding: 28px 16px;
-  text-align: center;
-  color: var(--muted);
-  border-top: 1px solid rgba(111, 70, 52, 0.12);
 }
 
 @media (max-width: 820px) {
