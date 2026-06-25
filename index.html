@@ -1,57 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pet shop website</title>
-     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css">
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petopia Hub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="container">
-       
-         <div class="nav">
-            <div class="nav-logo">
-                 <i class="fa-solid fa-paw"></i>
-                 <h2>PETOPIA HUB</h2>
-            </div>
-            <div class="nav-bar">
-                 <a href="/index.html" id="about">HOME</a>
-                 <a href="/product/index.html" id="about">PRODUCT</a>
-                 <a href="/dog breed/index.html"id="about">PET BREED</a>
-                 <a href="/about/index.html" id="about">ABOUT</a>
-            </div>   
-         </div>
-        <!--HOME BAR -->
-         <div class="home-text">
-               <h1>Golden Retriever</h1>
-               
-                 <h3> Dog Breed &#8942</h3>
-                  
-               
-               <p>The Golden Retriever is a Scottish breed of retriever dog of medium size. It is characterised by a gentle and affectionate nature and a striking golden coat. It is a working dog, and registration is subject to successful completion of a working trial.</p>
-         </div>
-          <div class="social-icons">
-                     <a href="#" id="f"><i class="fa-brands fa-facebook-f"></i></a>
-                     <a href="#" id="t"><i class="fa-brands fa-twitter"></i></a>
-                      <a href="#" id="w"><i class="fab fa-whatsapp"></i></a>
-                     <a href="#" id="i"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <div class="log-in">
-                 <a href="/login/login.html"id="log1">LOGIN</a>
-                 <a href="/sign-up/index1.html"id="log2">SIGN-IN</a>
-            </div>
-     </div>   
-     
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="Petopia Hub home">
+        <span class="brand-icon"><i class="fa-solid fa-paw"></i></span>
+        <span>PETOPIA HUB</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-btn" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <div class="nav-links">
+        <a href="index.html" class="active"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="product/index.html"><i class="fa-solid fa-bag-shopping"></i> Product</a>
+        <a href="dog breed/index.html"><i class="fa-solid fa-shield-dog"></i> Pet Breed</a>
+        <a href="about/index.html"><i class="fa-solid fa-circle-info"></i> About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Premium pet care store</p>
+        <h1>Everything your pet needs, in one beautiful place.</h1>
+        <p class="hero-text">
+          Find healthy food, playful toys, grooming essentials, and friendly breed guidance for your pet.
+        </p>
+        <div class="hero-actions">
+          <a href="product/index.html" class="btn primary"><i class="fa-solid fa-bag-shopping"></i> Shop Now</a>
+          <a href="dog breed/index.html" class="btn ghost"><i class="fa-solid fa-paw"></i> Explore Breeds</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="img/pet5.jpg" alt="Cute pet">
+        <div class="hero-badge">
+          <strong>4.9</strong>
+          <span>Trusted care rating</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <article>
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Fast Delivery</h3>
+        <p>Quick delivery for food, toys, and daily pet essentials.</p>
+      </article>
+      <article>
+        <i class="fa-solid fa-heart-pulse"></i>
+        <h3>Healthy Picks</h3>
+        <p>Curated items for comfort, wellness, and grooming.</p>
+      </article>
+      <article>
+        <i class="fa-solid fa-user-shield"></i>
+        <h3>Expert Support</h3>
+        <p>Simple guidance for choosing the right breed and products.</p>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
-
-
-

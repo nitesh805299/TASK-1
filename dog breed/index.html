@@ -1,237 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pet shop website</title>
-     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style3.css">
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Breeds - Petopia Hub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style3.css">
 </head>
 <body>
-      <div class="container"> 
-           <div class="nav">
-            <div class="nav-logo">
-                 <i class="fa-solid fa-paw"></i>
-                 <h2>PETOPIA HUB</h2>
-            </div>
-            <div class="nav-bar">
-                 <a href="/index.html" id="about">HOME</a>
-                 <a href="/product/index.html" id="about">PRODUCT</a>
-                 <a href="/dog breed/index.html"id="about">DOG BREED</a>
-                 <a href="/about/index.html" id="about">ABOUT</a>
-                 
-               
-            </div>   
-         </div>
-         <!-- dog breed -->
-           <div class="dog-breed">
-            <h2>BREEDS OF DOGS</h2>
-           </div>
-           <!-- shop by category -->
-    <!-- box1 -->
-    <div class="bg">
-      <div class="shop-section">
-        <div class="box1 box">
-          <h2 class="shop-text"> Labrador Retriever</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(dog2.jpg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box2 -->
-        <div class="box2 box">
-          <h2 class="shop-text">Chow Boby</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(dog1.jpg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box3 -->
-        <div class="box3 box">
-          <h2 class="shop-text">Golden Retriever </h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(dog3.jpg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box4 -->
-        <div class="box4 box">
-          <h2 class="shop-text">German Shepherd</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(dog4.webp);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box5 -->
-        <div class="box5 box">
-          <h2 class="shop-text">Poodles Dog</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(dog5.jpg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box6 -->
-        <div class="box6 box">
-          <h2 class="shop-text">Eskimo Dog</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(dog6.jpg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box7 -->
-        <div class="box7 box">
-          <h2 class="shop-text">Bull Dog</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(dog7.jpg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box8 -->
-        <div class="box8 box">
-          <h2 class="shop-text">Chihuahua Dog</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(dog8.jpeg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="../index.html"><span class="brand-icon"><i class="fa-solid fa-paw"></i></span><span>PETOPIA HUB</span></a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
+      <div class="nav-links">
+        <a href="../index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="../product/index.html"><i class="fa-solid fa-bag-shopping"></i> Product</a>
+        <a href="index.html" class="active"><i class="fa-solid fa-shield-dog"></i> Pet Breed</a>
+        <a href="../about/index.html"><i class="fa-solid fa-circle-info"></i> About</a>
       </div>
+    </nav>
+  </header>
 
+  <main class="breed-page">
+    <section class="breed-heading">
+      <p class="eyebrow">Breed guide</p>
+      <h1>Explore popular pet breeds.</h1>
+      <p>Choose the right companion by comparing personality, looks, and lifestyle fit.</p>
+    </section>
 
-        <!-- dog breed -->
-      <div class="cat-breed">
-            <h2>BREEDS OF CATS</h2>
-          </div>
-           <!-- shop by category -->
-    <!-- box1 -->
-    <div class="bg">
-      <div class="shop-section">
-        <div class="box1 box">
-          <h2 class="shop-text">Japanese Bobtail</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(CAT1.jpeg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box2 -->
-        <div class="box2 box">
-          <h2 class="shop-text">ragdoll cat</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(CAT2.jpeg) ;
-              
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box3 -->
-        <div class="box3 box">
-          <h2 class="shop-text">Snowshoe cat </h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(CAT3.jpeg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box4 -->
-        <div class="box4 box">
-          <h2 class="shop-text">British shorthair</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(cat4.jpeg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box5 -->
-        <div class="box5 box">
-          <h2 class="shop-text">British Longhair</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(cat5.jpeg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box6 -->
-        <div class="box6 box">
-          <h2 class="shop-text">Afirican Servel Cat</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(cat6.jpeg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box7 -->
-        <div class="box7 box">
-          <h2 class="shop-text">American Curl Cat</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(cat7.jpeg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
-        <!-- box8 -->
-        <div class="box8 box">
-          <h2 class="shop-text"> Tabby Cat</h2>
-          <div
-            class="box-img"
-            style="
-              background-image: url(cat8.jpg);
-            "
-          ></div>
-          <p class="shop-more">see more</p>
-        </div>
+    <section class="breed-section">
+      <h2>Breeds of Dogs</h2>
+      <div class="breed-grid">
+        <article class="breed-card"><img src="dog2.jpg" alt="Labrador Retriever"><h3>Labrador Retriever</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="dog1.jpg" alt="Chow Chow"><h3>Chow Chow</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="dog3.jpg" alt="Golden Retriever"><h3>Golden Retriever</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="dog4.webp" alt="German Shepherd"><h3>German Shepherd</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="dog5.jpg" alt="Poodle"><h3>Poodle</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="dog6.jpg" alt="Eskimo Dog"><h3>Eskimo Dog</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="dog7.jpg" alt="Bull Dog"><h3>Bull Dog</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="dog8.jpeg" alt="Chihuahua"><h3>Chihuahua</h3><a href="#">See More</a></article>
       </div>
+    </section>
+
+    <section class="breed-section">
+      <h2>Breeds of Cats</h2>
+      <div class="breed-grid">
+        <article class="breed-card"><img src="CAT1.jpeg" alt="Japanese Bobtail"><h3>Japanese Bobtail</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="CAT2.jpeg" alt="Ragdoll Cat"><h3>Ragdoll Cat</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="CAT3.jpeg" alt="Snowshoe Cat"><h3>Snowshoe Cat</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="cat4.jpeg" alt="British Shorthair"><h3>British Shorthair</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="cat5.jpeg" alt="British Longhair"><h3>British Longhair</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="cat6.jpeg" alt="African Serval Cat"><h3>African Serval</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="cat7.jpeg" alt="American Curl Cat"><h3>American Curl</h3><a href="#">See More</a></article>
+        <article class="breed-card"><img src="cat8.jpg" alt="Tabby Cat"><h3>Tabby Cat</h3><a href="#">See More</a></article>
       </div>
-       
-  </div>
+    </section>
+  </main>
 </body>
-</html>   
-      
-
-         
-        
-    
+</html>
